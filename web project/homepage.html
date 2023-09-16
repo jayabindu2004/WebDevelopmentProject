@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <style>
+          
+            .h1
+            {
+                font-size: 40pt;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+            }
+            .h2
+            {
+                font-size: 30pt;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+            }
+            .row
+            {
+               border: none;
+                display:inline-block;
+            }
+            .col
+            {
+                display:inline-block;  
+            }
+            .icon-center
+            {
+                border: solid #79B1BF;
+                border-radius: 100px;
+                width: 200px;
+                height: 200px;
+            }
+            #form
+            {
+                float: right;
+                border: 2px solid burlywood;
+                margin-top: 50px;
+                padding: 10px;
+                 
+            }
+            .login
+            {
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .user
+            {
+                font-size: 18px;
+
+            }
+            * {box-sizing:border-box}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.con
+{
+    border: 3px solid;
+    width: 1250px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(79, 90, 50);
+}
+.copy
+{
+    border-top: 1px solid;
+    text-align: center;
+}
+.add
+{
+    color: azure;
+}
+.foot1{
+    text-align:right;
+    font-weight: bold;
+}
+.button{
+border:2px solid;
+width:40px;
+height:20px;
+font-size:10pt;
+background-color: blue;
+}
+.button:hover{transform: scale(1.2);}
+a{color: black;}
+a.regis{color: blue; font-size: 16px;}
+a.regis:hover{font-size: 18px;}
+        </style>
+  </head>
+    <body>
+    <div id="head">
+    <div class="h1"><img align="center" src="logo.png" alt="logo"  width="160" height="160" style="border:none;border-radius:80px;">NIMS GIRLS HOSTEL</div>
+    <div class="h2">(M.S.R. GOKUL VIDYARTHI NIMS)</div></div>
+        <div class="slideshow-container">
+          <div class="mySlides fade"><img src="p1.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p2.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p7.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p3.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p4.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p8.png" style="width:100%" height="600"></div>     
+          <div class="mySlides fade"><img src="p11.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p10.png" style="width:100%" height="600"></div>
+          <div class="mySlides fade"><img src="p9.png" style="width:100%" height="600"></div>
+        </div><br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 2000); 
+        }
+        </script>
+        <div id="hi" style="float :left;">
+        <div class="row" style="padding-top:20px">
+            <div class="col">
+              <img class="icon-center" src="power-Backup1.png">
+            </div>
+            <div class="col">
+              <img class="icon-center" src="security1.png">
+            </div>
+            <div class="col">
+              <img class="icon-center" src="Food1.png">
+            </div>
+            <div class="col">
+              <img class="icon-center" src="Laundry-service1.png">
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col">
+              <img class="icon-center" src="RO1.png">
+            </div>
+            <div class="col">
+              <img class="icon-center" src="indoor-game1.png">
+            </div>
+            <div class="col">
+              <img class="icon-center" src="House-Keeping1.png">
+            </div>
+            <div class="col">
+              <img class="icon-center" src="wifi1.png">
+            </div>
+          </div>
+          </div>
+          <div id="form">
+          <p class="login"><strong>LOGIN :</strong></p><br>
+          <form>
+            <div class="user">
+            <input type="text" name="userid" placeholder="user name" style="width : 400px; height : 30px" required><br><br>
+            <input type="password" name="password" placeholder="password"  style="width : 400px; height : 30px" required><br><br>
+            <div class="button"> <a href="menu.html" onclick="onOpen()">Login</a>
+            </div>
+            </div><br>
+            </div>
+            <div class="user">
+             New? <a href="register.html" class="regis">Register now</a>
+              <br>
+             </div>
+             <script type="text/javascript">
+              function onOpen(){
+              alert("Welcome!!");
+              }</script>
+          </form>
+          
+          </div>
+          <br><br><br><br>
+<fieldset class="con" >
+<div class="add">
+    <img src="logo.png" alt="logo" style="float: left;" width="10%" height="10%">
+<p style="font-size:16pt;">NIMS GIRLS HOSTEL,</p>
+<p style="font-size:15pt;">GOKUL VIDYARTHI NIMS,</p>
+<p style="font-size:13pt;">No 2/8, M.S.Ramaiah Engineering College Road,M.S.R.I.T Post,Bangalore-54.</p>
+</div>
+<div class="foot1">
+<p style="font-size:15pt;">CONTACT DETAILS:</p>
+Mr.Harish Kumar<br>
+Chief Manager<br>
+Ph.no: 982****782<br>
+Email: harish***@gmail.com<br><br>
+Mrs.Kalyani Kathakam<br>
+Head Manager<br>
+Ph.no: 894****799<br>
+Email: harish***@gmail.com<br><br>  
+Mrs.Sunanda Geetha<br>
+Head Warden<br>
+Ph.no: 857****527<br>
+Email: geetha***@gmail.com<br><br> 
+</div><br>
+<p class="copy">@Copyrights Reserved.</p>
+</fieldset>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Complaints</title>
+<link rel="stylesheet" type="text/css" href="tablestyle.css">
+<style>
+    h1{
+        text-align: center;
+        font-size: 40pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: url('bgcomplaint.png');
+        padding: 10px;
+    }
+    fieldset
+    {
+        border: 2px solid gray;
+        padding: 15px;
+    }
+    .issue
+    {
+        font-size: 20pt;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    .problm
+    {
+        width: 150px;
+        height: 45px;
+    }
+.foot{
+text-align:right;
+}
+
+ .con
+{
+    border: 3px solid;
+    width: 1250px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(79, 90, 50);
+}
+.copy
+{
+    border-top: 1px solid;
+    text-align: center;
+}
+.add
+{
+    color: azure;
+}
+.foot1{
+    text-align:right;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<h1>WRITE YOUR COMPLAINT HERE</h1>
+<form>
+<fieldset>
+<div class="issue">Issue related to: <select name="issues" class="problm">
+<option value="wifi">Wifi/internet</option>
+<option value="water">Water supply</option>
+<option value="food">Food</option>
+<option value="room">Room services</option>
+<option value="others">Other</option>
+</select></div><br><br>
+<div class="issue">If others, please fill this*: <input type="text" name="others1" style="width: 250px;" placeholder="Required if selected others"></div><br><br>
+<div class="issue">Write your complaint in detail*: <textarea name="complaint" rows="3" cols="50" placeholder="If not written, complaint will not be taken into consideration"></textarea></div><br><br>
+</fieldset><br>
+<input type="submit" value="Submit" onclick="showSubmit()">
+<script>
+function showSubmit(){
+if(confirm("Are you sure to submit the form?")){
+alert("The form is submitted. We will try our best to resolve your complaint!!")
+}
+else{
+alert("The form is not submitted.")
+}
+}
+</script>
+<input type="reset" value="Clear">
+</form>
+<br><br><p style="font-size:15pt;"><mark><strong>NOTE:</strong> False/abusive complaints will be taken appropriate action.</mark></p>
+<div class="back"><a href="menu.html">Back</a></div>
+        <div class="home">Click <a href="homepage.html">here</a> to go to home page</div>
+<div>
+    <fieldset class="con" >
+        <div class="add">
+            <img src="logo.png" alt="logo" style="float: left;" width="10%" height="10%">
+        <p style="font-size:16pt;">NIMS GIRLS HOSTEL,</p>
+        <p style="font-size:15pt;">GOKUL VIDYARTHI NIMS,</p>
+        <p style="font-size:13pt;">No 2/8, M.S.Ramaiah Engineering College Road,M.S.R.I.T Post,Bangalore-54.</p>
+        </div>
+        <div class="foot1">
+        <p style="font-size:15pt;">CONTACT DETAILS:</p>
+        Mr.Harish Kumar<br>
+        Chief Manager<br>
+        Ph.no: 982****782<br>
+        Email: harish***@gmail.com<br><br>
+        Mrs.Kalyani Kathakam<br>
+        Head Manager<br>
+        Ph.no: 894****799<br>
+        Email: harish***@gmail.com<br><br>  
+        Mrs.Sunanda Geetha<br>
+        Head Warden<br>
+        Ph.no: 857****527<br>
+        Email: geetha***@gmail.com<br><br> 
+        </div><br>
+        <p class="copy">@Copyrights Reserved.</p>
+        </fieldset>
+</div>
+</body>
+</html>

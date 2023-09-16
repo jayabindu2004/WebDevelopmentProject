@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Room services</title>
+    <link rel="stylesheet" type="text/css" href="tablestyle.css">
+    <style>
+        .h1
+        {
+            font-size: 40pt;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            border: 2px solid cadetblue;
+        }
+        .section {
+            font-size: 20pt;
+            text-align: center;
+            margin: 10px 5px;
+        }
+        .one,
+        .three {
+           background-color:papayawhip;
+        }
+        input.boxs        
+        {
+            width: 20px;
+            height: 20px;
+        }
+        input[type='radio']{
+            width: 20px;
+            height: 20px;
+        }
+        .nav {
+            border: none;
+            padding: 20px;
+            font-size:20pt;
+            text-align: center;
+            margin: 10px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            place-items: center;
+            background-image: url('bgroom.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        } 
+        .btn { 
+            height: 70px;
+            width: 180px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+            margin: 10px;
+            border-radius:15px;
+            text-decoration: none;
+        }
+        a.btn:hover{background-color: rgba(0, 81, 255, 0.687);}
+.foot{
+text-align:right;
+}
+.con
+{
+    border: 3px solid;
+    width: 1230px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(79, 90, 50);
+}
+.copy
+{
+    border-top: 1px solid;
+    text-align: center;
+}
+.add
+{
+    color: azure;
+}
+.foot1{
+    text-align:right;
+    font-weight: bold;
+}
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: red; 
+  color: white;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px;
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+    </style>
+</head>
+  
+<body>
+<div class="h1">ROOM SERVICES</div>
+    <div class="nav">
+        <a href="#section1" class="btn">Furniture Replacement</a>
+        <a href="#section2" class="btn">Housekeeping</a>
+        <a href="#section3" class="btn">Electrical services</a>
+        <a href="#section4" class="btn">Contact Us</a>
+    </div>
+    <br><div class="back"><a href="menu.html">Back</a></div>
+        <div class="home">Click <a href="homepage.html">here</a> to go to home page</div>
+    <br><div class="section one" id="section1">
+        <br> <h2>Furniture Replacement</h2>
+        <img src="freplace.png" width="300" height="350">
+<form>
+Furniture to be replaced: <input type="checkbox" class="boxs" name="cot">Cot
+<input type="checkbox" class="boxs" name="cupboard">Cupboard
+<input type="checkbox" class="boxs" name="Chair">Chair
+<input type="checkbox" class="boxs" name="door">Door
+<input type="checkbox" class="boxs" name="window">Window
+<input type="checkbox" class="boxs" name="studytable">Study table<br><br>
+Reason: <textarea name="reason" rows="3" cols="40" required></textarea><br><br>
+<input type="submit" value="Submit" onclick="showAlert()">
+<script>
+  function showAlert() {
+    alert ("The Form has been Submitted. The date and time of your slot will be sent to your registered mobile no / email");
+  }
+  </script>
+
+<input type="Reset" value="Clear"><br><br>
+</form></div>
+    <div class="section two" id="section2">
+        <br> <h2>Housekeeping</h2>
+        <img src="hkeeping.png" width="300" height="350">
+<form>
+Select the service to be provided:<br><br> <input type="radio" name="Mattress">Mattress Change
+<input type="radio" name="curtain">Curtain Change
+<input type="radio" name="sanitization">Sanitization
+<input type="radio" name="plumber">Plumber Services<br><br>
+<input type="submit" value="Submit" onclick="showAlert()">
+<script>
+  function showAlert() {
+    alert ("The Form has been Submitted. The date and time of your slot will be sent to your registered mobile no / email");
+  }
+  </script>
+
+<input type="Reset" value="Clear"><br><br>
+</form>
+    </div>
+    <div class="section three" id="section3">
+        <br>    <h2>Electrical services</h2><br>
+        <img src="electrical.png" width="300" height="350">
+<form>
+<textarea name="complaint" rows="4" cols="100" placeholder="Write about your issue here" required></textarea><br>
+<br><input type="submit" value="Submit" onclick="showAlert()">
+<script>
+  function showAlert() {
+    alert ("The Form has been Submitted. The date and time of your slot will be sent to your registered mobile no / email");
+  }
+  </script>
+<input type="Reset" value="Clear"><br>
+</form>
+    </div>
+    <br><div class="section four" id="section4">
+        </div>
+        <br><div class="back"><a href="menu.html">Back</a></div>
+        <div class="home">Click <a href="homepage.html">here</a> to go to home page</div>
+<div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>// Get the button:
+let mybutton = document.getElementById("myBtn");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+  <fieldset class="con" >
+      <div class="add">
+          <img src="logo.png" alt="logo" style="float: left;" width="10%" height="10%">
+      <p style="font-size:16pt;">NIMS GIRLS HOSTEL,</p>
+      <p style="font-size:15pt;">GOKUL VIDYARTHI NIMS,</p>
+      <p style="font-size:13pt;">No 2/8, M.S.Ramaiah Engineering College Road,M.S.R.I.T Post,Bangalore-54.</p>
+      </div>
+      <div class="foot1">
+      <p style="font-size:15pt;">CONTACT DETAILS:</p>
+      Mr.Harish Kumar<br>
+      Chief Manager<br>
+      Ph.no: 982****782<br>
+      Email: harish***@gmail.com<br><br>
+      Mrs.Kalyani Kathakam<br>
+      Head Manager<br>
+      Ph.no: 894****799<br>
+      Email: harish***@gmail.com<br><br>  
+      Mrs.Sunanda Geetha<br>
+      Head Warden<br>
+      Ph.no: 857****527<br>
+      Email: geetha***@gmail.com<br><br> 
+      </div><br>
+      <p class="copy">@Copyrights Reserved.</p>
+      </fieldset>
+</div>
+</body>
+</html>
