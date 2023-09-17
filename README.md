@@ -27,7 +27,7 @@ HOSTEL SERVICES WEB PAGE
 <br>
 
 <h2>RESULT SNAPSHORTS</h2>
-![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/d05c2180-cf3e-4a15-95ad-3b103ec3f4b3.jpg)
+![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/d05c2180-cf3e-4a15-95ad-3b103ec3f4b3)
 <br>
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/ccf9e3de-52c1-4d7b-813d-0c671e22cd9d)
 <br>
