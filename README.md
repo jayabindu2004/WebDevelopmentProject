@@ -27,6 +27,10 @@ HOSTEL SERVICES WEB PAGE
 <br>
 
 <h2>RESULT SNAPSHORTS</h2>
+
+
+
+
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/d05c2180-cf3e-4a15-95ad-3b103ec3f4b3)
 
 
@@ -37,18 +41,24 @@ HOSTEL SERVICES WEB PAGE
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/ccf9e3de-52c1-4d7b-813d-0c671e22cd9d)
 
 
+
 <br>
 
 
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/ee0c2926-2ca1-4cfe-8ee2-45ec45b11770)
 
 
+
 <br>
+
 
 
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/ff6e63a4-6e3f-4940-8b52-79c82030620b)
 
+
+
 <br>
+
 
 
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/4f2c3eca-2e42-4dc6-b367-7873d1e37709)
@@ -77,7 +87,12 @@ HOSTEL SERVICES WEB PAGE
 
 
 <br>
+
+
+
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/65c3bef1-8e51-4cf3-805d-5a8fe9ad9500)
+
+
 
 <br>
 
@@ -95,7 +110,14 @@ HOSTEL SERVICES WEB PAGE
 
 
 <br>
+
+
+
+
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/b1394161-d5ee-4189-b5e5-eeea06c45e9a)
+
+
+
 
 <br>
 
@@ -113,7 +135,13 @@ HOSTEL SERVICES WEB PAGE
 
 
 <br>
+
+
+
 ![image](https://github.com/jayabindu2004/WebDevelopmentProject/assets/117556640/1ae2bbd4-40c4-4d47-b0f3-8aae940264af)
+
+
+
 
 <br>
 
