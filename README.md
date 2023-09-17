@@ -1,5 +1,5 @@
 <h1> WebDevelopmentProject</h1>
-This is our first front-end web development project done as a part of our academics. It is a hostel website that serves as an online platform to showcase their accommodations, services, and amenities to potential guests.<br><br>
+This is my first front-end web development project done as a part of my academics. It is a hostel website that serves as an online platform to showcase their accommodations, services, and amenities to potential guests.<br><br>
 <center>
 <h2>OVERALL VIEW OF THE PROJECT IN TERMS OF IMPLEMENTATION<br>
 HOSTEL SERVICES WEB PAGE
